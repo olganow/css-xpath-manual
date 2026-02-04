@@ -42,16 +42,42 @@ XPath - мощный и гибкий, незаменим для сложной �
 HTML-тега.
 
 <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; background: #f8f9fa;">
-  <h4 style="margin-top: 0;">HTML-элемент в одной строке:</h4>
+  <h4 style="margin-top: 0;">Структура HTML-элемент:</h4>
 
   <div style="background: white; padding: 10px; border: 1px solid #dee2e6; font-family: monospace; margin-bottom: 15px;">
     &lt;button class="order-btn special-btn" data-id="promo-2"&gt;Заказать&lt;/button&gt;
   </div>
 
   <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
-    <tr><td style="padding: 4px; width: 100px;"><strong>Тег:</strong></td><td style="padding: 4px;"><code>button</code></td></tr>
-    <tr><td style="padding: 4px;"><strong>Атрибут 1:</strong></td><td style="padding: 4px;"><code>class="order-btn special-btn"</code></td></tr>
-    <tr><td style="padding: 4px;"><strong>Атрибут 2:</strong></td><td style="padding: 4px;"><code>data-id="promo-2"</code></td></tr>
-    <tr><td style="padding: 4px;"><strong>Текст:</strong></td><td style="padding: 4px;"><code>Заказать</code></td></tr>
+    <tr>
+      <td style="padding: 4px; width: 30px; text-align: center; font-weight: bold;">1</td>
+      <td style="padding: 4px; width: 150px;"><strong>Имя тега:</strong></td>
+      <td style="padding: 4px;"><code>button</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px; text-align: center; font-weight: bold;">2</td>
+      <td style="padding: 4px;"><strong>Атрибут (имя):</strong></td>
+      <td style="padding: 4px;"><code>class</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px; text-align: center; font-weight: bold;">3</td>
+      <td style="padding: 4px;"><strong>Атрибут (значение):</strong></td>
+      <td style="padding: 4px;"><code>"order-btn special-btn"</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px; text-align: center; font-weight: bold;">4</td>
+      <td style="padding: 4px;"><strong>Атрибут (имя):</strong></td>
+      <td style="padding: 4px;"><code>data-id</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px; text-align: center; font-weight: bold;">5</td>
+      <td style="padding: 4px;"><strong>Атрибут (значение):</strong></td>
+      <td style="padding: 4px;"><code>"promo-2"</code></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px; text-align: center; font-weight: bold;">6</td>
+      <td style="padding: 4px;"><strong>Текст кнопки:</strong></td>
+      <td style="padding: 4px;"><code>Заказать</code></td>
+    </tr>
   </table>
 </div>
