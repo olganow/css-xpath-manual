@@ -41,48 +41,58 @@ XPath - мощный и гибкий, незаменим для сложной �
 Элемент состоит из имени, то есть самого HTML-тега. Например, div, span, input, button и другие. Внутри него перечислены атрибуты, которые отвечают за все возможные свойства элемента. Например, цвет, размер, действие, которое будет происходить по клику на элемент.
 HTML-тега.
 
+<div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9; font-family: Arial, sans-serif;">
+  <h3 style="color: #333; margin-top: 0; margin-bottom: 15px;">🧬 Анатомия HTML-элемента (все в одной строке)</h3>
 
-<div style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; background: #f9f9f9;">
-  <h3 style="color: #333; margin-top: 0;">🧬 Разбор HTML-элемента</h3>
-  
-  <div style="background: white; padding: 15px; border-radius: 5px; font-family: monospace;">
-    &lt;<span style="color: #d14;">button</span> 
-    <span style="color: #099;" title="имя атрибута">class</span>="<span style="color: #c00;" title="значение атрибута">order-btn special-btn</span>"
-    <span style="color: #099;" title="имя атрибута">data-id</span>="<span style="color: #c00;" title="значение атрибута">promo-2</span>"&gt;
-    <br>
-    &nbsp;&nbsp;<span style="color: #333;" title="текст кнопки">Заказать</span>
-    <br>
-    &lt;/<span style="color: #d14;">button</span>&gt;
+  <div style="background: white; padding: 15px; border-radius: 5px; font-family: 'Courier New', monospace; border-left: 4px solid #4CAF50;">
+    <span style="color: #d14;">&lt;button</span> 
+    <span style="color: #099;">class</span>=<span style="color: #c00;">"order-btn special-btn"</span>
+    <span style="color: #099;"> data-id</span>=<span style="color: #c00;">"promo-2"</span><span style="color: #d14;">&gt;</span>
+    <span style="color: #333;">Заказать</span>
+    <span style="color: #d14;">&lt;/button&gt;</span>
   </div>
-  
-  <table style="width: 100%; margin-top: 15px; border-collapse: collapse;">
-    <tr style="background: #e8f4f8;">
-      <th style="padding: 8px; text-align: left;">Компонент</th>
-      <th style="padding: 8px; text-align: left;">Значение</th>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #eee;">Имя тега</td>
-      <td style="padding: 8px; border: 1px solid #eee;"><code>button</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #eee;">Атрибут 1 (имя)</td>
-      <td style="padding: 8px; border: 1px solid #eee;"><code>class</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #eee;">Атрибут 1 (значение)</td>
-      <td style="padding: 8px; border: 1px solid #eee;"><code>"order-btn special-btn"</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #eee;">Атрибут 2 (имя)</td>
-      <td style="padding: 8px; border: 1px solid #eee;"><code>data-id</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #eee;">Атрибут 2 (значение)</td>
-      <td style="padding: 8px; border: 1px solid #eee;"><code>"promo-2"</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 8px; border: 1px solid #eee;">Текст кнопки</td>
-      <td style="padding: 8px; border: 1px solid #eee;"><code>"Заказать"</code></td>
-    </tr>
-  </table>
+
+  <div style="margin-top: 15px; padding: 10px; background: #e8f4f8; border-radius: 5px;">
+    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+      <div style="width: 120px; font-weight: bold;">Имя тега:</div>
+      <div style="background: white; padding: 3px 8px; border-radius: 3px; border: 1px solid #ccc;">button</div>
+    </div>
+
+    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+      <div style="width: 120px; font-weight: bold;">Атрибуты:</div>
+      <div style="flex: 1;">
+        <div style="display: inline-block; margin-right: 15px;">
+          <div style="font-size: 0.9em; color: #666;">имя</div>
+          <div style="background: white; padding: 3px 8px; border-radius: 3px; border: 1px solid #ccc;">class</div>
+        </div>
+        <div style="display: inline-block;">
+          <div style="font-size: 0.9em; color: #666;">значение</div>
+          <div style="background: white; padding: 3px 8px; border-radius: 3px; border: 1px solid #ccc;">"order-btn special-btn"</div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="display: flex; align-items: center; margin-bottom: 8px;">
+      <div style="width: 120px; font-weight: bold;">Атрибуты:</div>
+      <div style="flex: 1;">
+        <div style="display: inline-block; margin-right: 15px;">
+          <div style="font-size: 0.9em; color: #666;">имя</div>
+          <div style="background: white; padding: 3px 8px; border-radius: 3px; border: 1px solid #ccc;">data-id</div>
+        </div>
+        <div style="display: inline-block;">
+          <div style="font-size: 0.9em; color: #666;">значение</div>
+          <div style="background: white; padding: 3px 8px; border-radius: 3px; border: 1px solid #ccc;">"promo-2"</div>
+        </div>
+      </div>
+    </div>
+    
+    <div style="display: flex; align-items: center;">
+      <div style="width: 120px; font-weight: bold;">Текст кнопки:</div>
+      <div style="background: white; padding: 3px 8px; border-radius: 3px; border: 1px solid #ccc;">Заказать</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 15px; font-size: 0.9em; color: #666; padding: 8px; background: #fff3cd; border-radius: 5px; border-left: 4px solid #ffc107;">
+    💡 <strong>Структура:</strong> &lt;<em>имя_тега</em> <em>атрибут="значение"</em> <em>атрибут="значение"</em>&gt;<em>текст</em>&lt;/<em>имя_тега</em>&gt;
+  </div>
 </div>

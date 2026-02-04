@@ -25,6 +25,9 @@
 Песочница [index.html](index.html): - html страница с меню кондитерской, 
 на которой можно протестировать результаты поиска по CSS-селекторам и XPath.
 
+![Скриншот песочницы для тестирования CSS/XPath](/pictures/sandbox.png)
+
+
 ## Как тестировать:
 1. Скачайте [страницу 'Меню "Сладкая Булочка"'](index.html)  на компьтер и откройте ее в браузере.
 
@@ -34,6 +37,7 @@
 
 3. Откройте консоль браузера (Devtools → Console):
 
+```javascript
 - // CSS примеры
    document.querySelectorAll('.item')
    document.querySelector('#item-3')
