@@ -22,7 +22,7 @@
 Песочница [index.html](index.html) - html страница с меню кондитерской, 
 на которой можно протестировать результаты поиска по CSS-селекторам и XPath.
 
-![Скриншот песочницы для тестирования CSS/XPath](/pictures/sandbox.png)
+![Скриншот песочницы для тестирования CSS/XPath](/pictures/sand-box.png)
 
 <hr style="border: none; border-top: 2px solid #4CAF50; margin: 20px 0;">
 
