@@ -19,7 +19,7 @@
 9. [✅ Проверка селекторов в браузере](css-xpath.md##-9-проверка-селекторов-в-браузере)
 
 ## Версии в pdf
-- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pictures/xpath-css-detailed-guide.pdf);
+- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pdf/xpath-css-detailed-guide.pdf);
 - [XPath и CSS-селекторы: шпаргалка» 6 страниц — краткая версия](pdf/xpath-css-cheatsheet.pdf).
 
 ## Интерактивная демонстрация
@@ -29,8 +29,8 @@
 ![Скриншот песочницы для тестирования CSS/XPath](/pictures/sand-box.png)
 
 ## Версии в pdf
-- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pdf/xpath-css-ru-detailed-guide.pdf);
-- [XPath и CSS-селекторы: шпаргалка» 6 страниц — краткая версия](pdf/xpath-css-cheatsheet.pdf).
+- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pdf/xpath-css-ru-detailed-guide.pdf)
+- [XPath и CSS-селекторы: шпаргалка» -краткая версия - 6 страниц](pdf/xpath-css-cheatsheet.pdf)
 
 <hr style="border: none; border-top: 2px solid #4CAF50; margin: 20px 0;">
 
@@ -42,12 +42,17 @@
 
 3. Откройте консоль браузера (Devtools → Console):
 
+- // для CSS 
 ```javascript
-- // CSS примеры
    document.querySelectorAll('.item')
+```
+ ```javascript
    document.querySelector('#item-3')
-
--  // XPath примеры
+```
+-  // для XPath
+```javascript
    $x("//div[@class='item']")
+```
+```javascript
    $x("//span[text()='Булка с маслом']")
 ```
