@@ -19,8 +19,8 @@
 9. [✅ Проверка селекторов в браузере](css-xpath.md##-9-проверка-селекторов-в-браузере)
 
 ## Версии в pdf
-- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pdf/xpath-css-detailed-guide.pdf);
-- [XPath и CSS-селекторы: шпаргалка» 6 страниц — краткая версия](pdf/xpath-css-cheatsheet.pdf).
+- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pdf/xpath-css-ru-detailed-guide.pdf)
+- [XPath и CSS-селекторы: шпаргалка» 6 страниц — краткая версия](pdf/xpath-css-cheatsheet.pdf)
 
 ## Интерактивная демонстрация
 Песочница [index.html](index.html) - html страница с меню кондитерской, 
