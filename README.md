@@ -44,3 +44,8 @@
    $x("//span[text()='Булка с маслом']")
 
 
+<hr style="border: none; border-top: 2px solid #4CAF50; margin: 20px 0;">
+## Версии в pdf
+- 	[«XPath и CSS-селекторы: подробная инструкция».pdf (26 страниц)](pictures/XPath и CSS-селекторы подробная инструкция.pdf) ;
+- 	[«XPath и CSS-селекторы: шпаргалка».pdf (6 страниц — краткая версия)](pictures/XPath и CSS-селекторы - шпаргалка.docx).
+
