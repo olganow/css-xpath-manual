@@ -18,11 +18,19 @@
 8. [📊 Сравнение CSS Selectors и Xpath](css-xpath.md##-8-сравнение-css-selectors-и-xpath)
 9. [✅ Проверка селекторов в браузере](css-xpath.md##-9-проверка-селекторов-в-браузере)
 
+## Версии в pdf
+- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pictures/xpath-css-detailed-guide.pdf);
+- [XPath и CSS-селекторы: шпаргалка» 6 страниц — краткая версия](pdf/xpath-css-cheatsheet.pdf).
+
 ## Интерактивная демонстрация
 Песочница [index.html](index.html) - html страница с меню кондитерской, 
 на которой можно протестировать результаты поиска по CSS-селекторам и XPath.
 
 ![Скриншот песочницы для тестирования CSS/XPath](/pictures/sand-box.png)
+
+## Версии в pdf
+- [XPath и CSS-селекторы: подробная инструкция 26 страниц](pdf/xpath-css-ru-detailed-guide.pdf);
+- [XPath и CSS-селекторы: шпаргалка» 6 страниц — краткая версия](pdf/xpath-css-cheatsheet.pdf).
 
 <hr style="border: none; border-top: 2px solid #4CAF50; margin: 20px 0;">
 
@@ -43,9 +51,3 @@
    $x("//div[@class='item']")
    $x("//span[text()='Булка с маслом']")
 ```
-
-<hr style="border: none; border-top: 2px solid #4CAF50; margin: 20px 0;">
-## Версии в pdf
-- 	[«XPath и CSS-селекторы: подробная инструкция».pdf (26 страниц)](pictures/xpath-css-detailed-guide.pdf) ;
-- 	[«XPath и CSS-селекторы: шпаргалка».pdf (6 страниц — краткая версия)](pictures/xpath-css-cheatsheet.pdf).
-
